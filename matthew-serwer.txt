@@ -1,0 +1,140 @@
+   https://codepen.io/matty-serwer/pen/zYqEYww
+   
+    1. What is Semantic HTML? 
+    using elements that are clear about what you are doing and easy to organize.
+
+    2. What is HTML used for? 
+    marking up text within a browser to make content easy for the user to navigate, and consume.
+
+    3. What is an attribute and where do we put it? 
+    attributes are used to specify parameters about an html element. they come right after the element is declared, within the open angle brackets.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    it is used to signify and format the most important title on a webpage, usually at the top. It should only be used once per page.
+
+    5. Name two tags that have required attributes
+    img requires the src tag, and the a tag requires the href attribute.
+
+    6. What do we put in the head of our HTML document? 
+    a title, styles, and metadata
+
+    7. What is an id? 
+    it is an attribute that is applied to one specific element in a webpage so that it can be styled or accessed.
+
+    8. What elements can I add an id to? 
+    any element.
+
+    9. How many times can I use the same id on a page? 
+    one.
+
+    10. What is a class? 
+    a class is an attribute that can be applied to one or several elements in a webpage, that will all have the same styles applied to them, or they all can be accessed together in javaScript.
+
+    11. What elements can I add a class to? 
+    any element.
+
+    12. How many times can I use the same class on a page? 
+    any number of times.
+
+    13. How do I get my link to open in a new tab?
+    add the attribute target="_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+    for web services that dont load images, i.e. low bandwidth locations, or sight readers.
+
+    15. How do I reference an id?
+    placing a '#' before the id name.
+
+    16. What is the difference between a section and a div
+    a section is a semantic tag. div is more general.
+
+    17. What is CSS used for? 
+    cascading style sheets are used to apply style to an html webpage. Style manipulates a webpages appearance.
+
+    18. How to we select an element? Example - every h2 on the page
+    h2 by itself and then brackets '{ }'
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    classes can be used mutliple times and an id is only used once per page to identify a specific object.
+    You might use to signify all the div's that you want to add a blue background to. 
+    You might use an ID on particular html form so that its clear what form you are talking about.
+
+    20. How do we select classes in CSS?
+    a period before the name of the class.
+
+    21. How do we select a p element with a single class of “human””?
+    p .human { }
+
+    22. What is a parent child selector? When would this be useful? 
+    '>' it is used to select elements that are the direct child of another element, for instance to select all the list items at once that are children of a specific list.
+
+    23. How do you select all links within a div with the class of sidebar?
+    div.sidebar li { }
+
+    24. What is a pseudo selector?
+    a pseudo selector is active during a specific state, as in using 
+    ':hover' to signify that we're looking for a mouse hover to select the element.
+
+    25. What do we use the change the spacing between lines?
+    line-height: 'number or percent'
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing: 'pixels'
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform:'uppercase, lowercase, capitalize'
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+
+    29. How do I select everything on the page? 
+    * { }
+
+    30. How do I write a comment in CSS?
+    /* just like this! */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd 
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    'rm' The rm command will delete something with finality! It can not be retrieved. I've already set up 'trash'!
+
+    34. Why should I use version control? 
+    so you can revisit previous versions of your code, when it may have worked better, or when a client prefered it, or to see what was done at each stage, etc.
+
+    35. How often should I commit to github?
+    you should commit often, anytime you've created a small but meaningful change.
+
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin 'branch-name'
+
+    37. Walk me through Lambda's git flow. 
+    -First you fork the assigned repo, so that you have your own version. 
+    -add your TL as a collaborator
+    -use the terminal to clone the http of your repo
+    -go into the new folder for your repo clone, and checkout a branch with your name.
+    -work on the project 
+    -when your done, you can add, commit and push all the files to github, to your branch. 
+    -then create a pull request of your branch, making sure to select your forked repo as the base repo. 
+    -invite your TL to review it, and go and pull it!
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    a block element takes up a new line, and takes up the full width of its parent.
+    inline elements doesn't start on a new line and only takes up the space that itself takes up.
+
+    2. What happens when an element is positioned absolutely? 
+    an absolute positioned element will be at a specified location (by pixel) within its parent element. 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
